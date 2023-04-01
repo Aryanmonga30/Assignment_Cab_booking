@@ -1,0 +1,64 @@
+html {
+    height: 100%;
+    color: #fff;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+  }
+  h2 {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* display: flex; */
+  }
+  img {
+    width: 500px;
+  }
+
+  .login-box {
+    width: 400px;
+    padding: 20px;
+    margin-left: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    display: grid;
+  }
+
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  input {
+    margin-left: 10px;
+    align-self: center;
+  }
+  label {
+    color: white;
+    text-align: center;
+  }
+  input {
+    align-self: center;
+  }
+  button {
+    margin: 15px;
+    padding: 5px;
+    border-radius: 20px;
+    border-color: #fff;
+    height: 50px;
+    width: 80px;
+  }
+  #gender {
+    color: white;
+  }

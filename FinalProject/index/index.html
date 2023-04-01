@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cab Booking System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index1.js"></script>
+  </head>
+  <body>
+    <h2>City Map</h2>
+    <div class="image">
+      <img src="Artboard 1.png" alt="" />
+
+      <div class="login-box">
+        <h2>Cab Booking System</h2>
+        <form>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" /><br /><br />
+
+          <label for="source">Source:</label>
+          <input type="text" id="source" name="source" /><br /><br />
+
+          <label for="destination">Destination:</label>
+          <input type="text" id="destination" name="destination" /><br /><br />
+
+          <label for="gender">Cabs: </label>
+
+          <select id="cab">
+            <option value="0">Cab1 price:2</option>
+            <option value="1">Cab2 price:3</option>
+            <option value="2">Cab3 price:4</option>
+            <option value="3">Cab4 price:5</option>
+            <option value="4">Cab5 price:6</option>
+          </select>
+          <br />
+          <br />
+
+          <button type="button" onclick="estimateCost()">Estimate Cost</button>
+          <button type="button" onclick="shortpath()">Shortest Path</button>
+          <button type="button" onclick="bookCab()">Book Your Cab</button>
+        </form>
+        <h2 id="cabbook"></h2>
+      </div>
+    </div>
+  </body>
+</html>
